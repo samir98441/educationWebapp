@@ -1,0 +1,67 @@
+@media(max-width:780px) {
+    .bg1 {
+        background-size: 100% auto;
+        background-position: center bottom;
+        background-color: #fff9f3;
+    }
+
+    #divNav {
+        display: none;
+        margin-top: 25px;
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        background: #fff;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li:last-child a {
+        box-shadow: none;
+        color: #5a6e79;
+    }
+
+    .mobilenav {
+        display: block;
+    }
+
+    .department {
+        margin-top: 10px;
+    }
+
+    .dept_inner {
+        flex-direction: column;
+    }
+
+    .dept_box {
+        margin: 15px auto;
+    }
+
+    .dept_box img {
+        width: 600px;
+    }
+
+    .flex1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    */ .aboutRight {
+        flex-basis: 100%;
+    }
+
+    .courses__inner {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .courses__inner img {
+        width: 320px;
+    }
+
+    .courses__box {
+        flex-basis: 320px;
+    }
+}
